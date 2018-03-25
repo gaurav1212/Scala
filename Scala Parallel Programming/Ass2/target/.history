@@ -1,0 +1,11 @@
+runMain reductions.ParallelCountChangeRunner
+ runMain reductions.ParallelParenthesesBalancingRunner
+runMain reductions.LineOfSightRunner
+submit gaurav1212@gmail.com ApZdijDjbQe276dW
+runMain reductions.LineOfSightRunner
+ runMain reductions.ParallelParenthesesBalancingRunner
+runMain reductions.ParallelCountChangeRunner
+runMain reductions.LineOfSightRunner
+submit gaurav1212@gmail.com ApZdijDjbQe276dW
+submit gaurav1212@gmail.com 6gReVJNdXT8hfZts
+ runMain kmeans.KMeansRunner

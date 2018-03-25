@@ -1,0 +1,104 @@
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Initial source changes: [0m
+[0m[[0mdebug[0m] [0m[naha] 	removed:Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	added: Set(/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/VerticalBoxBlur.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/ScalaShop.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/PhotoCanvas.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] 	modified: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Invalidated products: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] External API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Modified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] Initial directly invalidated sources: Set(/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/VerticalBoxBlur.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/ScalaShop.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/PhotoCanvas.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] [0m
+[0m[[0mdebug[0m] [0m[naha] Sources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m[naha] 	product: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m[naha] 	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/VerticalBoxBlur.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/ScalaShop.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/PhotoCanvas.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Initial set of included nodes: Set(/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/VerticalBoxBlur.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/ScalaShop.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/PhotoCanvas.scala, /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala)[0m
+[0m[[0mdebug[0m] [0m[naha] Recompiling all 5 sources: invalidated sources (5) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 5 Scala sources to /Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/target/scala-2.10/classes...[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mGetting org.scala-sbt:compiler-interface:0.13.15:component from component compiler for Scala 2.10.6[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 132a2611, interfacing (CompilerInterface) with Scala compiler version 2.10.6[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home/jre/classes:/Users/gaurav/.sbt/boot/scala-2.10.6/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/target/scala-2.10/classes[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:3: object scalameter is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalameter._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:4: not found: object common[0m
+[0m[[31merror[0m] [0mimport common._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:8: not found: value config[0m
+[0m[[31merror[0m] [0m  val standardConfig = config([0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala:2: not found: object common[0m
+[0m[[31merror[0m] [0mimport common._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:50: value += is not a member of Int[0m
+[0m[[31merror[0m] [0m        c+=1[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:52: value += is not a member of Int[0m
+[0m[[31merror[0m] [0m      r+=1[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:70: reassignment to val[0m
+[0m[[31merror[0m] [0m        endRow = src.height[0m
+[0m[[31merror[0m] [0m               ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:72: not found: value task[0m
+[0m[[31merror[0m] [0m      def t = task { blur (src, dst, currRow, endRow, radius)}[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:73: value += is not a member of List[Any][0m
+[0m[[31merror[0m] [0m      tasks += t[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:74: reassignment to val[0m
+[0m[[31merror[0m] [0m      currRow = endRow[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:78: value join is not a member of Any[0m
+[0m[[31merror[0m] [0m      tasks.head.join()[0m
+[0m[[31merror[0m] [0m                 ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/HorizontalBoxBlur.scala:79: reassignment to val[0m
+[0m[[31merror[0m] [0m      tasks = tasks.tail[0m
+[0m[[31merror[0m] [0m            ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/PhotoCanvas.scala:10: not found: object common[0m
+[0m[[31merror[0m] [0mimport common._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/VerticalBoxBlur.scala:3: object scalameter is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalameter._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/VerticalBoxBlur.scala:4: not found: object common[0m
+[0m[[31merror[0m] [0mimport common._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/ScalaShop.scala:8: object par is not a member of package collection[0m
+[0m[[31merror[0m] [0mimport scala.collection.par._[0m
+[0m[[31merror[0m] [0m                        ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/ScalaShop.scala:11: object scalameter is not a member of package org[0m
+[0m[[31merror[0m] [0mimport org.scalameter._[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/ScalaShop.scala:12: not found: object common[0m
+[0m[[31merror[0m] [0mimport common._[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/ScalaShop.scala:54: not found: value measure[0m
+[0m[[31merror[0m] [0m        val time = measure {[0m
+[0m[[31merror[0m] [0m                   ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/VerticalBoxBlur.scala:8: not found: value config[0m
+[0m[[31merror[0m] [0m  val standardConfig = config([0m
+[0m[[31merror[0m] [0m                       ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala:47: reassignment to val[0m
+[0m[[31merror[0m] [0m      yr = -radius[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala:54: not found: value graan[0m
+[0m[[31merror[0m] [0m        ga += graan(rgba)[0m
+[0m[[31merror[0m] [0m              ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala:58: value += is not a member of Int[0m
+[0m[[31merror[0m] [0m        yr += 1[0m
+[0m[[31merror[0m] [0m           ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala:60: value += is not a member of Int[0m
+[0m[[31merror[0m] [0m      xr += 1[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m/Users/gaurav/CourseraParallelProg/Ass1/src/main/scala/scalashop/package.scala:63: not found: value r[0m
+[0m[[31merror[0m] [0m    rgba(r/norm, g/norm, b/norm, a/norm)[0m
+[0m[[31merror[0m] [0m         ^[0m
+[0m[[31merror[0m] [0m25 errors found[0m
+[0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
+[0m[[31merror[0m] [0m(compile:[31mcompileIncremental[0m) Compilation failed[0m

@@ -1,0 +1,226 @@
+!SESSION 2017-09-17 06:22:20.013 -----------------------------------------------
+eclipse.buildId=4.6.1-vfinal-2017-06-09T11:19:56Z-Typesafe
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/gaurav/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -keyring /Users/gaurav/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-17 06:22:42.063
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-09-17 06:23:08.340
+!MESSAGE Preference scala.compiler.sourceLevel was uninitialized for bigdata-example, setting default to 2.12.
+
+!ENTRY org.scala-ide.sdt.core 2 0 2017-09-17 06:23:08.344
+!MESSAGE Preference scala.compiler.installation was uninitialized for bigdata-example, setting default to 2.12.
+
+!ENTRY org.eclipse.core.resources 4 2 2017-09-17 21:48:49.800
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3$adapted(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1$adapted(TaskManager.scala:46)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:320)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:976)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:112)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:48:49.801
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:48:49.801
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+
+!ENTRY org.eclipse.core.resources 4 75 2017-09-17 21:48:49.803
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.scala-ide.sdt.core 4 75 2017-09-17 21:48:49.803
+!MESSAGE Errors running builder 'Scala Builder' on project 'bigdata-example'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3$adapted(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1$adapted(TaskManager.scala:46)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:320)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:976)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:112)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2017-09-17 21:48:49.803
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:48:49.803
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+
+!ENTRY org.scala-ide.sdt.core 1 0 2017-09-17 21:48:50.222
+!MESSAGE Adding  -Xsource:2.11 -Ymacro-expand:none to compiler arguments of bigdata-example because of: requested Scala Installation change
+
+!ENTRY org.eclipse.core.resources 4 2 2017-09-17 21:48:53.680
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3$adapted(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1$adapted(TaskManager.scala:46)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:320)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:976)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:112)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:48:53.680
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:48:53.680
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+
+!ENTRY org.eclipse.core.resources 4 75 2017-09-17 21:48:53.683
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.scala-ide.sdt.core 4 75 2017-09-17 21:48:53.683
+!MESSAGE Errors running builder 'Scala Builder' on project 'bigdata-example'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3$adapted(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1$adapted(TaskManager.scala:46)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:320)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:976)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:112)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2017-09-17 21:48:53.683
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:48:53.683
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+
+!ENTRY org.eclipse.core.resources 4 2 2017-09-17 21:49:10.306
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3$adapted(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1$adapted(TaskManager.scala:46)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:320)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:976)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:112)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:49:10.306
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:49:10.306
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+
+!ENTRY org.eclipse.core.resources 4 75 2017-09-17 21:49:10.308
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.scala-ide.sdt.core 4 75 2017-09-17 21:49:10.308
+!MESSAGE Errors running builder 'Scala Builder' on project 'bigdata-example'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:849)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:277)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:268)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3(TaskManager.scala:49)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$3$adapted(TaskManager.scala:47)
+	at scala.Option.foreach(Option.scala:257)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1(TaskManager.scala:47)
+	at org.scalaide.core.internal.builder.TaskManager$.$anonfun$updateTasks$1$adapted(TaskManager.scala:46)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:320)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:976)
+	at org.scalaide.core.internal.builder.TaskManager$.updateTasks(TaskManager.scala:46)
+	at org.scalaide.core.internal.builder.ScalaBuilder.build(ScalaBuilder.scala:112)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:735)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:301)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:304)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:360)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:383)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:144)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 2 org.eclipse.core.resources 4 274 2017-09-17 21:49:10.308
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+!SUBENTRY 1 org.eclipse.core.resources 4 274 2017-09-17 21:49:10.308
+!MESSAGE Resource is out of sync with the file system: '/bigdata-example/src/main/scala/example/Lists.scala'.
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-09-17 21:49:41.365
+!MESSAGE The workspace will exit with unsaved changes in this session.

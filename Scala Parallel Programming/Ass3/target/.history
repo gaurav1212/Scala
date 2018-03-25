@@ -1,0 +1,16 @@
+ runMain kmeans.KMeansRunner
+ run-main kmeans.fun.ScalaShop
+submit gaurav1212@gmail.com ID5MVbYNqD8AHwjJ
+console 
+ runMain kmeans.KMeansRunner
+submit gaurav1212@gmail.com ID5MVbYNqD8AHwjJ
+ runMain kmeans.KMeans()
+ runMain KMeansSuite()
+ runMain Kmeans.KMeansSuite
+runTest 
+ScalaTestRunner() 
+runMain ScalaTestRunner() 
+ runMain Kmeans.KMeansSuite
+ runMain kmeans.KMeansRunner
+submit gaurav1212@gmail.com ID5MVbYNqD8AHwjJ
+submit gaurav1212@gmail.com 4QRfKLwxtpfz2H9n
